@@ -84,8 +84,6 @@
 ^(http|https):\/\/(www.)?yuanchengxiezuo\.com\/ https://www.teamviewer.com/ 302
 ^(http|https):\/\/(www.)?zbrushcn.com/ https://pixologic.com/ 302
 
-# AbeamTV - api.abema.io
-^(http|https):\/\/api\.abema\.io\/v\d\/ip\/check - reject
 
 [MITM]
-hostname = %APPEND% capi.douyucdn.cn, stactictive.douyucdn.cn, rtbapi.douyucdn.cn, fuss10.elemecdn.com, cube.elemecdn.com, www.google.cn,api.abema.io
+hostname = %APPEND% capi.douyucdn.cn, stactictive.douyucdn.cn, rtbapi.douyucdn.cn, fuss10.elemecdn.com, cube.elemecdn.com, www.google.cn
