@@ -35,6 +35,7 @@ CamScanner.js = type=http-response,requires-body=1,max-size=0,pattern=https:\/\/
 emby-adr-vD.js = type=http-response,requires-body=1,max-size=0,pattern=^https://mb3admin.com/admin/service/registration/validateDevice,script-path=https://subweb.oss-cn-hongkong.aliyuncs.com/Script/emby-adr-vD.js
 emby-adr-v.js = type=http-response,requires-body=1,max-size=0,pattern=^https://mb3admin.com/admin/service/registration/validate,script-path=https://subweb.oss-cn-hongkong.aliyuncs.com/Script/emby-adr-v.js
 emby-adr-gS.js = type=http-response,requires-body=1,max-size=0,pattern=^https://mb3admin.com/admin/service/registration/getStatus,script-path=https://subweb.oss-cn-hongkong.aliyuncs.com/Script/emby-adr-gS.js
+
 [MITM]
 hostname = %INSERT% trade-acs.m.taobao.com,api.m.jd.com,ios.prod.ftl.netflix.com, mp.weixin.qq.com, account.wps.cn, pan.baidu.com, ap*.intsig.net, www.google.*, biz.caiyunapp.com, mb3admin.com
 
