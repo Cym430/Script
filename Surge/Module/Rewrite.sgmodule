@@ -15,13 +15,6 @@
 ^https?:\/\/staticlive\.douyucdn\.cn\/.+?\/getStartSend - reject
 ^https?:\/\/staticlive\.douyucdn\.cn\/upload\/signs\/ - reject
 
-# > eleme
-^https?:\/\/elemecdn\.com\/.+?\/sitemap - reject
-^https?:\/\/fuss10\.elemecdn\.com\/.+?\/w\/640\/h\/\d{3,4} - reject
-^https?:\/\/fuss10\.elemecdn\.com\/.+?\/w\/750\/h\/\d{3,4} - reject
-^https?:\/\/fuss10\.elemecdn\.com\/.+?\.mp4 - reject
-^https?:\/\/m\.elecfans\.com\/static\/js\/ad\.js - reject
-^https?:\/\/www1\.elecfans\.com\/www\/delivery\/ - reject
 # Redirect Google Search Service
 ^(http|https):\/\/(www.)?(g|google)\.cn https://www.google.com 302
 
@@ -91,4 +84,4 @@
 
 
 [MITM]
-hostname = %APPEND% *.googlevideo.com, capi.douyucdn.cn, stactictive.douyucdn.cn, rtbapi.douyucdn.cn, fuss10.elemecdn.com, cube.elemecdn.com, www.google.cn
+hostname = %APPEND% *.googlevideo.com, www.google.cn, capi.douyucdn.cn, stactictive.douyucdn.cn, rtbapi.douyucdn.cn
