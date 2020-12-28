@@ -7,4 +7,3 @@ QQ阅读 = type=cron,cronexp=1 0 * * *,wake-system=1,script-path=https://raw.git
 10010 = type=cron,cronexp=3 0 * * *,wake-system=1,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/10010/10010.js
 小米运动 = type=cron,cronexp=0 18 * * *,wake-system=1,timeout=20,script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/backUp/xmSports.js
 滴滴出行 = type=cron,cronexp=0 1,20 * * *,wake-system=1,script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/DiDi/DiDi_new.js
-彩云天气 = type=cron,cronexp=0 8,20 * * *,wake-system=1,script-path=https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/caiyun.js
