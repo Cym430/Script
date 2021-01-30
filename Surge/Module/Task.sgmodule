@@ -2,6 +2,7 @@
 #!desc=签到
 
 [Script]
+5G狂欢城 = type=cron,cronexp="0 0,6,12,18 * * *",wake-system=1,timeout=3600,script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_5g.js
 京东神仙书院 = type=cron,cronexp="0 8 * * *",wake-system=1,timeout=2000,script-path=https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_immortal.js
 集鞭炮赢京豆 = type=cron,cronexp="10 8,21 * * *",wake-system=1,timeout=2220,script-path=https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_firecrackers.js
 京东炸年兽🧨 = type=cron,cronexp="0 8,9,10 * * *",wake-system=1,timeout=22200,script-path=https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_nian.js
