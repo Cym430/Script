@@ -1,4 +1,4 @@
-#!name=Cymtask
+#!name=Cym Task
 #!desc=签到
 
 [Script]
@@ -7,7 +7,5 @@
 WPS = type=cron,cronexp=20 1 0 * * *,wake-system=1,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/wps/wps.js
 微博(钱包) = type=cron,cronexp=25 1 0 * * *,wake-system=1,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/weibo.js
 喜马拉雅 = type=cron,cronexp=30 1 0 * * *,wake-system=1,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/ximalaya/ximalaya.js
-斗鱼鱼吧 = type=cron,cronexp=35 1 0 * * *,wake-system=1,script-path=https://raw.githubusercontent.com/lowking/Scripts/master/douyu/yubaSign.js
-什么值得买 = type=cron,cronexp=40 1 0 * * *,wake-system=1,timeout=120,script-path=什么值得买.js
 吾爱签到 = type=cron,cronexp=0 8 * * *,wake-system=1,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/52pojie-DailyBonus/52pojie.js
 贴吧签到 = type=cron,cronexp=0 9 * * *,wake-system=1,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/BDTieBa-DailyBonus/TieBa.js
