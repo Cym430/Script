@@ -61,3 +61,4 @@ crazyJoy任务 = type=cron,cronexp="10 7 * * *",wake-system=1,timeout=3600,scrip
 领金贴 = type=cron,cronexp="10 0 * * *",wake-system=1,timeout=3600,script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_jin_tie.js
 每日抽奖 = type=cron,cronexp="13 1,22,23 * * *",wake-system=1,timeout=3600,script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_daily_lottery.js
 京享值PK = type=cron,cronexp="15 8,13,18 17-31 5 *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/monk-coder/dust/dust/normal/adolf_pk.js
+京东joy总动员 = type=cron,cronexp=0 1 * * *,wake-system=1,timeout=3600,script-path=https://github.com/fangpidedongsun/jd_scripts2/raw/master/jd_friend.js
