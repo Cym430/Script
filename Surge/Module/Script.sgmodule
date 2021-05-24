@@ -39,5 +39,5 @@ Baiducloud = type=http-response,requires-body=1,max-size=0,pattern=https:\/\/pan
 Camscanner = type=http-response,requires-body=1,max-size=0,pattern=https:\/\/(api|api-cs)\.intsig\.net\/purchase\/cs\/query_property\?,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/CamScanner.js
 
 [MITM]
-hostname = %INSERT% api.m.jd.com, trade-acs.m.taobao.com, api.weibo.cn, mapi.weibo.com, *.uve.weibo.com, mp.weixin.qq.com, account.wps.cn, pan.baidu.com, ap*.intsig.net, www.google.*, biz.caiyunapp.com, app.bilibili.com, ap?.bilibili.com
+hostname = %INSERT% api.m.jd.com,trade-acs.m.taobao.com,api.weibo.cn,mapi.weibo.com,*.uve.weibo.com,mp.weixin.qq.com,account.wps.cn,pan.baidu.com,ap*.intsig.net,www.google.*,biz.caiyunapp.com,app.bilibili.com,ap?.bilibili.com
 
