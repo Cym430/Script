@@ -54,7 +54,6 @@ crazyJoy挂机 = type=cron,cronexp="10 1,12 * * *",wake-system=1,timeout=20,scri
 跳跳乐瓜分京豆 = type=cron,cronexp="1 0,11,21 * * *",wake-system=1,timeout=3600,script-path=jd_scripts/jd_jump.js
 闪购盲盒 = type=cron,cronexp=20 8 * * *,wake-system=1,timeout=3600,script-path=jd_scripts/jd_sgmh.js
 金榜创造营 = type=cron,cronexp="13 1,22 * * *",wake-system=1,timeout=3600,script-path=jd_scripts/jd_gold_creator.js
-5G超级盲盒 = type=cron,cronexp="0 0,1-23/3 * * *",wake-system=1,timeout=3600,script-path=jd_scripts/jd_mohe.js
 新潮品牌狂欢 = type=cron,cronexp=4 10 * * *,wake-system=1,timeout=3600,script-path=jd_scripts/jd_mcxhd.js
 京喜领88元红包 = type=cron,cronexp=4 10 * * *,wake-system=1,timeout=3600,script-path=jd_scripts/jd_jxlhb.js
 省钱大赢家之翻翻乐 = type=cron,cronexp=20 * * * *,wake-system=1,timeout=3600,script-path=jd_scripts/jd_big_winner.js
