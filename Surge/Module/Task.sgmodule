@@ -3,11 +3,7 @@
 
 [Script]
 京东签到 = type=cron,cronexp=15 0 0 * * *,wake-system=1,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js
-京豆变动通知 = type=cron,cronexp=2 9 * * *,wake-system=1,timeout=3600,script-path=jd_scripts/jd_bean_change.js
-取关京东店铺商品 = type=cron,cronexp=55 23 * * *,wake-system=1,timeout=3600,script-path=jd_scripts/jd_unsubscribe.js
 领京豆额外奖励 = type=cron,cronexp=10 7 * * *,wake-system=1,timeout=3600,script-path=jd_scripts/jd_bean_home.js
-京东汽车 = type=cron,cronexp=10 7 * * *,wake-system=1,timeout=3600,script-path=jd_scripts/jd_car.js
-京东汽车兑换 = type=cron,cronexp=0 0 * * *,wake-system=1,timeout=3600,script-path=jd_scripts/jd_car_exchange.js
 京东种豆得豆 = type=cron,cronexp=1 7-21/2 * * *,wake-system=1,timeout=3600,script-path=jd_scripts/jd_plantBean.js
 京东宠汪汪 = type=cron,cronexp=15 0-23/2 * * *,wake-system=1,timeout=3600,script-path=jd_scripts/jd_joy.js
 京东宠汪汪喂食 = type=cron,cronexp=15 0-23/1 * * *,wake-system=1,timeout=3600,script-path=jd_scripts/jd_joy_feedPets.js
@@ -22,5 +18,4 @@
 摇京豆 = type=cron,cronexp=5 0 * * *,wake-system=1,timeout=3600,script-path=jd_scripts/jd_club_lottery.js
 天天提鹅 = type=cron,cronexp=10 * * * *,wake-system=1,timeout=3600,script-path=jd_scripts/jd_daily_egg.js
 进店领豆 = type=cron,cronexp=10 0 * * *,wake-system=1,timeout=3600,script-path=jd_scripts/jd_shop.js
-天天加速 = type=cron,cronexp=8 0-23/3 * * *,wake-system=1,timeout=3600,script-path=jd_scripts/jd_speed.js
 赚京豆 = type=cron,cronexp=10 7 * * *,wake-system=1,timeout=3600,script-path=jd_scripts/jd_syj.js
